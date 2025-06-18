@@ -1,44 +1,50 @@
-# Data-Warehousing-2024
-This project demonstrates my understanding of data warehousing concepts, ETL workflows, dimensional modeling, and business reporting with Power BI.
+# 📦 Data-Warehousing-2024
+
+This project demonstrates my understanding of data warehousing concepts, ETL workflows, dimensional modeling, and business reporting using Power BI.
 
 ---
 
 ## 📌 Project Overview
-- Built a star schema warehouse from raw operational data
-- Designed dimension and fact tables to support business reporting
-- Developed ETL pipeline using SQL to load structured data
-- Created ERDs and DW diagrams to map data relationships
-- Built Power BI dashboards to visualize KPIs like sales and customer activity
+
+- Built a **star schema warehouse** from raw operational data  
+- Designed **dimension and fact tables** to support business reporting  
+- Developed an **ETL pipeline using SQL** to transform and load structured data  
+- Created **ERDs and DW diagrams** to map data relationships  
+- Built **Power BI dashboards** to visualize KPIs like sales and customer activity  
 
 ---
 
 ## 🧠 Skills Used
-- SQL (CREATE, INSERT, ALTER, UPDATE)
-- ETL process
-- Power BI
-- ERD + DW schema design
-- SSMS
-- SSIS
-- SSRS
+
+- SQL (`CREATE`, `INSERT`, `ALTER`, `UPDATE`)  
+- ETL process  
+- Power BI  
+- ERD + DW schema design  
+- SSMS (SQL Server Management Studio)  
+- SSIS (SQL Server Integration Services)  
+- SSRS (SQL Server Reporting Services)  
 
 ---
 
 ## 🖼️ Screenshots
 
-### ERD Diagram
-![ERD](./screenshots/erd.png)
+### 🧱 ERD Diagram  
+Visualizing table relationships in star schema  
+![ERD](./screenshots/DataWarehouse_Diagram.png)
 
-### Power BI Dashboard
-![Dashboard](./screenshots/powerbi_dashboard.png)
+### 📊 Power BI Dashboard  
+Tracking KPIs and customer metrics  
+![Dashboard](./screenshots/PowerBI_Report.png)
 
-### SQL Workflow
-![SQL Code](./screenshots/sql_insert_example.png)
+### 📝 SQL Workflow Example  
+Insert statements for staging/warehouse tables  
+![SQL Code](./screenshots/Insert_Customers.png)
 
 ---
 
+
 ## 📂 File Structure
-- `/screenshots/`: Visuals from ETL, Power BI, and schema diagrams
-- `etl_pipeline.sql`: SQL scripts used to build and load warehouse
+- `/screenshots/`: Visuals from ETL, Power BI, and schema diagrams, SQL scripts used to build and load warehouse
 - `README.md`: Overview of project
 
 ---
